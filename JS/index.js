@@ -1,3 +1,4 @@
-function showBackground() {
-    document.getElementById('div1').classList.add('background');
+function addBackground() {
+    console.log('Reached Function Call');
+    document.getElementById('p1').classList.toggle('background');
 }
